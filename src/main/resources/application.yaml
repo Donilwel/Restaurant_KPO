@@ -2,7 +2,7 @@
 spring:
   main:
     banner-mode: off
-
-logging:
-  level:
-    root: warn
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
